@@ -50,13 +50,11 @@ article {
     height: 380px;
     width: 450px;
     display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
-.selection-box {
-   flex-direction: column;
-   justify-content: space-around;
-   align-items: flex-start;
-}
  
 .box-title {
     font-size: x-large;
