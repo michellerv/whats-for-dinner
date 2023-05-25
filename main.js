@@ -1,3 +1,8 @@
+//querySelectors
+
+
+
+//data
 var side = [
     'Miso Glazed Carrots',
     'Coleslaw',
@@ -46,3 +51,10 @@ var dessert = [
     'Croissants',
     'Eclairs'
     ];
+
+    var currentMeal ;
+
+    //eventListeners
+
+
+    //functions and event handlers
