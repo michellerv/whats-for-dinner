@@ -1,6 +1,7 @@
 //querySelectors
-
-
+var foodSuggest = document.querySelector('.food-suggest');
+var foodItem = document.querySelector('.food-item');
+var cookButton = document.querySelector('#cook-button');
 
 //data
 var side = [
@@ -52,9 +53,12 @@ var dessert = [
     'Eclairs'
     ];
 
-    var currentMeal ;
+var currentMeal ;
 
-    //eventListeners
+//eventListeners
+cookButton.addEventListener('click', displayFood)
 
-
-    //functions and event handlers
+//functions and event handlers
+function getRandomIndex(array) {
+    return Math.floor(Math.random() * array.length);
+    }
