@@ -60,12 +60,17 @@ article {
  
 .box-title {
     font-size: x-large;
-    padding-left: 40px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.radio-buttons {
+    font-size: larger
 }
 
 input[type=radio], input[type=checkbox]{
-    transform:scale(1);
-    margin-right: 20px; 
+    transform:scale(1.2);
+    margin: 18px; 
 }
 
 #cook-button {
@@ -75,7 +80,8 @@ input[type=radio], input[type=checkbox]{
     height: 45px;
     width: 180px;
     font-size: medium;
-    margin-left: 45px;   
+    margin-left: 50px;  
+    margin-bottom: 45px; 
 }
 
 .pot-box {
