@@ -21,7 +21,7 @@ header {
     align-items: center;
     flex-direction: row;
     padding: 14px; 
-    font-size: small
+    font-size: small;
 }
 
 .header-button {
@@ -65,7 +65,7 @@ article {
 }
 
 .radio-buttons {
-    font-size: larger
+    font-size: larger;
 }
 
 input[type=radio], input[type=checkbox]{
