@@ -63,6 +63,11 @@ article {
     padding-left: 40px;
 }
 
+input[type=radio], input[type=checkbox]{
+    transform:scale(1);
+    margin-right: 20px; 
+}
+
 #cook-button {
     background-color: #0fb9b1 ;
     border-radius: 4px;
@@ -70,8 +75,7 @@ article {
     height: 45px;
     width: 180px;
     font-size: medium;
-    margin-left: 120px;
-   
+    margin-left: 45px;   
 }
 
 .pot-box {
