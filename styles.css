@@ -94,3 +94,7 @@ img {
     width:auto;
     position:center;
 }
+
+.hidden {
+    display: none!important;
+}
