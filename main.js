@@ -1,12 +1,15 @@
 //querySelectors
 var foodSuggest = document.querySelector('.food-suggest');
 var foodItem = document.querySelector('.food-item');
+var potImage = document.querySelector('img');
 
 var cookButton = document.querySelector('#cook-button');
-var radioButtons= document.querySelectorAll("input[name='meals']")
+var sideRadioButton = document.querySelector('#side');
+var mainRadioButton = document.querySelector('#main-dish');
+var dessertRadioButton = document.querySelector('#dessert');
 
 //data
-var side = [
+var sides = [
     'Miso Glazed Carrots',
     'Coleslaw',
     'Garden Salad',
@@ -19,7 +22,7 @@ var side = [
     'Hush Puppies' 
     ];
 
-var mainDish = [
+var mainDishes = [
     'Spaghetti and Meatballs',
     'Pineapple Chicken',
     'Shakshuka',
@@ -35,7 +38,7 @@ var mainDish = [
     'Margarita Pizza' 
     ];
 
-var dessert = [
+var desserts = [
     'Apple Pie',
     'Lemon Meringue Pie',
     'Black Forest Cake',
@@ -55,28 +58,30 @@ var dessert = [
     'Eclairs'
     ];
 
-var randomSide ;
-var randomMain;
-var randomDessert;
+var currentFood;
 
 //eventListeners
-cookButton.addEventListener('click', displayFood)
+ cookButton.addEventListener('click', displayFood);
+ 
 
 //functions and event handlers
 function getRandomIndex(array) {
     return Math.floor(Math.random() * array.length);
     }
 
-function displayFood(){
-  //for loop for the buttons- iterate over radioButton array
-  //if radiobuttons[i].checked() {
-    // can move on to see which one is checked
-// } else alert
+ function displayFood() {
+    potImage.classList.add('hidden')
+    foodSuggest.classList.remove('hidden')
     
-//do I have access to radio buttons?
-//check one thing at a time
-}
+    if (sideRadioButton.checked) {
+        foodItem.innerText = sides[getRandomIndex(sides)]
+    } else if (mainRadioButton.checked) {
+        foodItem.innerText = mainDishes[getRandomIndex(mainDishes)]
+    } else {
+        foodItem.innerText = desserts[getRandomIndex(desserts)]
+    }
+ }
 
-//helper function
+    
 
 
