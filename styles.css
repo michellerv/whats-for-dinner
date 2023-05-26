@@ -95,13 +95,14 @@ input[type=radio], input[type=checkbox]{
 .food-item {
     font-size: xx-large;
     font-weight: bolder;
-
+    padding-bottom: 75px;
+    padding-top: 25px;
 }
 
 img {
     height:180px;
     width:auto;
-    position:center;
+    position:fixed;
 }
 
 .clear-button {
