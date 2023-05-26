@@ -21,7 +21,7 @@ header {
     align-items: center;
     flex-direction: row;
     padding: 14px; 
-    font-size: small
+    font-size: small;
 }
 
 .header-button {
@@ -50,13 +50,11 @@ article {
     height: 380px;
     width: 450px;
     display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
-.selection-box {
-   flex-direction: column;
-   justify-content: space-around;
-   align-items: flex-start;
-}
  
 .box-title {
     font-size: x-large;
@@ -65,7 +63,7 @@ article {
 }
 
 .radio-buttons {
-    font-size: larger
+    font-size: larger;
 }
 
 input[type=radio], input[type=checkbox]{
@@ -93,4 +91,8 @@ img {
     height:180px;
     width:auto;
     position:center;
+}
+
+.hidden {
+    display: none;
 }
