@@ -7,6 +7,7 @@ var cookButton = document.querySelector('#cook-button');
 var sideRadioButton = document.querySelector('#side');
 var mainRadioButton = document.querySelector('#main-dish');
 var dessertRadioButton = document.querySelector('#dessert');
+var clearButton = document.querySelector('.clear-button')
 
 //data
 var sides = [
@@ -85,6 +86,8 @@ function getRandomIndex(array) {
 function displayFood() {
     potImage.classList.add('hidden')
     foodSuggest.classList.remove('hidden')
+    clearButton.classList.remove('hidden')
+
     
     pickFood()
     foodItem.innerText = `${currentFood}!`   
