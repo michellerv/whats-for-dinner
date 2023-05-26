@@ -77,8 +77,10 @@ function getRandomIndex(array) {
         foodItem.innerText = sides[getRandomIndex(sides)]
     } else if (mainRadioButton.checked) {
         foodItem.innerText = mainDishes[getRandomIndex(mainDishes)]
-    } else {
+    } else if (dessertRadioButton.checked) {
         foodItem.innerText = desserts[getRandomIndex(desserts)]
+    } else {
+        foodItem.innerText = 'Please select a choice.'
     }
  }
 
