@@ -7,6 +7,7 @@ var cookButton = document.querySelector('#cook-button');
 var sideRadioButton = document.querySelector('#side');
 var mainRadioButton = document.querySelector('#main-dish');
 var dessertRadioButton = document.querySelector('#dessert');
+var clearButton = document.querySelector('.clear-button')
 
 //data
 var sides = [
@@ -62,7 +63,8 @@ var currentFood;
 
 //eventListeners
  cookButton.addEventListener('click', displayFood);
- 
+ clearButton.addEventListener('click', clearFood);
+
 
 //functions and event handlers
 function getRandomIndex(array) {
@@ -85,11 +87,21 @@ function getRandomIndex(array) {
 function displayFood() {
     potImage.classList.add('hidden')
     foodSuggest.classList.remove('hidden')
-    
+    clearButton.classList.remove('hidden')
+ 
     pickFood()
     foodItem.innerText = `${currentFood}!`   
- }
+}
 
+function clearFood() {
+    potImage.classList.remove('hidden')
+    foodSuggest.classList.add('hidden')
+    clearButton.classList.add('hidden')
+  
+    if (currentFood === currentFood) {
+    return foodItem.innerText = ''
+  }
+}   
 
 
 
