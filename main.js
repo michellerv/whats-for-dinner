@@ -69,21 +69,28 @@ function getRandomIndex(array) {
     return Math.floor(Math.random() * array.length);
     }
 
- function displayFood() {
+ function pickFood() {
+    if (sideRadioButton.checked) {
+        currentFood = sides[getRandomIndex(sides)]        
+    } else if (mainRadioButton.checked) {
+        currentFood = mainDishes[getRandomIndex(mainDishes)]
+    } else if (dessertRadioButton.checked) {
+        currentFood = desserts[getRandomIndex(desserts)]
+    } else {
+        currentFood = 'Please select a choice'
+    }  
+    return currentFood
+}
+    
+function displayFood() {
     potImage.classList.add('hidden')
     foodSuggest.classList.remove('hidden')
     
-    if (sideRadioButton.checked) {
-        foodItem.innerText = sides[getRandomIndex(sides)]
-    } else if (mainRadioButton.checked) {
-        foodItem.innerText = mainDishes[getRandomIndex(mainDishes)]
-    } else if (dessertRadioButton.checked) {
-        foodItem.innerText = desserts[getRandomIndex(desserts)]
-    } else {
-        foodItem.innerText = 'Please select a choice.'
-    }
+    pickFood()
+    foodItem.innerText = `${currentFood}!`   
  }
 
-    
+
+
 
 
