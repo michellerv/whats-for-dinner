@@ -87,6 +87,17 @@ input[type=radio], input[type=checkbox]{
     align-items: center;
 }
 
+.food-suggest {
+    font-size: large;
+    font-style:italic;
+}
+
+.food-item {
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
 img {
     height:180px;
     width:auto;
