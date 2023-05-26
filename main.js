@@ -1,7 +1,9 @@
 //querySelectors
 var foodSuggest = document.querySelector('.food-suggest');
 var foodItem = document.querySelector('.food-item');
+
 var cookButton = document.querySelector('#cook-button');
+var radioButtons= document.querySelectorAll("input[name='meals']")
 
 //data
 var side = [
@@ -53,7 +55,9 @@ var dessert = [
     'Eclairs'
     ];
 
-var currentMeal ;
+var randomSide ;
+var randomMain;
+var randomDessert;
 
 //eventListeners
 cookButton.addEventListener('click', displayFood)
@@ -62,3 +66,17 @@ cookButton.addEventListener('click', displayFood)
 function getRandomIndex(array) {
     return Math.floor(Math.random() * array.length);
     }
+
+function displayFood(){
+  //for loop for the buttons- iterate over radioButton array
+  //if radiobuttons[i].checked() {
+    // can move on to see which one is checked
+// } else alert
+    
+//do I have access to radio buttons?
+//check one thing at a time
+}
+
+//helper function
+
+
