@@ -91,20 +91,6 @@ function displayFood() {
  }
 
 
-//  function displayFood() {
-//     potImage.classList.add('hidden')
-//     foodSuggest.classList.remove('hidden')
-    
-//     if (sideRadioButton.checked) {
-//         foodItem.innerText = `${sides[getRandomIndex(sides)]}!`
-//     } else if (mainRadioButton.checked) {
-//         foodItem.innerText = `${mainDishes[getRandomIndex(mainDishes)]}!`
-//     } else if (dessertRadioButton.checked) {
-//         foodItem.innerText = `${desserts[getRandomIndex(desserts)]}!`
-//     } else {
-//         foodItem.innerText = 'Please select a choice.'
-//     }
-//  }
-    
+
 
 
