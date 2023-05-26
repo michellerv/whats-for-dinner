@@ -104,6 +104,16 @@ img {
     position:center;
 }
 
+.clear-button {
+    background-color: #95a5a6;
+    border-radius: 4px;
+    color: rgba(225, 225, 225);
+    border-color: #95a5a6;
+    height: 35px;
+    width: 80px;
+    font-size: medium;
+}
+
 .hidden {
     display: none;
 }
