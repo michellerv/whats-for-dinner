@@ -39,7 +39,10 @@ Have you ever had trouble deciding what to cook and eat?
 
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+1. Fork and clone this repo: https://github.com/michellerv/whats-for-dinner/pull/9
+2. Type `cd whats-for-dinner` to move into the root directory
+3. Open the webpage by typing `open index.html`
+
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
@@ -48,7 +51,7 @@ Have you ever had trouble deciding what to cook and eat?
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+Michelle Villagran https://github.com/michellerv 
 
 ### Learning Goals:
 [//]: <> (What were the learning goals of this project? What tech did you work with?)
