@@ -28,9 +28,15 @@ Before turning this project in, erase this line and everything above it and fill
 ______________________________________________________  
 
 # What's for Dinner? 
+An application for food indecision.
 
 ### Abstract:
-[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+Have you ever had trouble deciding what to cook and eat? 
+
+&ensp;  This application allows the user to choose a meal type, and through selection, get food suggestions. There are four radio button the user can choose from: side, main dish, dessert, or entire meal. Based on the user selection, a random food from that category type will be displayed after the user presses the "Let's cook!" button. When the user selects the entire meal button, a random main dish, side and dessert will be suggested. 
+
+&ensp; After a suggestion has been made, the user can choose to clear the display box. If the user does not select a radio button and selects 'Let's cook!' the user will be asked to please select a choice.  
+
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
