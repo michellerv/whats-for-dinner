@@ -83,6 +83,7 @@ input[type=radio], input[type=checkbox]{
 }
 
 .pot-box {
+    display:flex;
     justify-content: center;
     align-items: center;
 }
