@@ -7,6 +7,7 @@ var cookButton = document.querySelector('#cook-button');
 var sideRadioButton = document.querySelector('#side');
 var mainRadioButton = document.querySelector('#main-dish');
 var dessertRadioButton = document.querySelector('#dessert');
+var mealRadioButton = document.querySelector('#entire-meal')
 var clearButton = document.querySelector('.clear-button')
 
 //data
@@ -60,6 +61,7 @@ var desserts = [
     ];
 
 var currentFood;
+var entireMeal
 
 //eventListeners
  cookButton.addEventListener('click', displayFood);
@@ -78,12 +80,16 @@ function getRandomIndex(array) {
         currentFood = mainDishes[getRandomIndex(mainDishes)]
     } else if (dessertRadioButton.checked) {
         currentFood = desserts[getRandomIndex(desserts)]
+    } else if (mealRadioButton.checked) {
+        currentFood = `Have ${mainDishes[getRandomIndex(mainDishes)]}
+        with a side of ${sides[getRandomIndex(sides)]}, and 
+        ${desserts[getRandomIndex(desserts)]} for dessert`  
     } else {
         currentFood = 'Please select a choice'
-    }  
-    return currentFood
-}
-    
+    }
+        return currentFood
+    }    
+
 function displayFood() {
     potImage.classList.add('hidden')
     foodSuggest.classList.remove('hidden')

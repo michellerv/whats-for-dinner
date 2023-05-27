@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 14px; 
+    padding: 10px; 
     font-size: small;
 }
 
@@ -68,7 +68,7 @@ article {
 
 input[type=radio], input[type=checkbox]{
     transform:scale(1.2);
-    margin: 18px; 
+    margin: 15px; 
 }
 
 #cook-button {
@@ -83,6 +83,7 @@ input[type=radio], input[type=checkbox]{
 }
 
 .pot-box {
+    display:flex;
     justify-content: center;
     align-items: center;
 }
@@ -97,6 +98,7 @@ input[type=radio], input[type=checkbox]{
     font-weight: bolder;
     padding-bottom: 75px;
     padding-top: 25px;
+    text-align: center;
 }
 
 img {
