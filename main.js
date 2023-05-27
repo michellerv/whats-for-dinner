@@ -83,8 +83,7 @@ function getRandomIndex(array) {
     } else if (mealRadioButton.checked) {
         currentFood = `Have ${mainDishes[getRandomIndex(mainDishes)]}
         with a side of ${sides[getRandomIndex(sides)]}, and 
-        ${desserts[getRandomIndex(desserts)]} for dessert`
-      
+        ${desserts[getRandomIndex(desserts)]} for dessert`  
     } else {
         currentFood = 'Please select a choice'
     }
