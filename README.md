@@ -48,13 +48,16 @@ Have you ever had trouble deciding what to cook and eat?
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+The completion of this project marks the end of week 3 for Mod 1, halfway through the first Module at Turing. I worked on this project for approximatly 15 hours, spanning five days.
 
 ### Contributors:
 Michelle Villagran https://github.com/michellerv 
 
 ### Learning Goals:
-[//]: <> (What were the learning goals of this project? What tech did you work with?)
+&ensp; The learning goals for this project were to gain experience writing and utilizing HTML and CSS to match a provided comp, as well as to buid an application. 
+
+&ensp; We were also practicing how to creating functionality through javascript, targeting and creating function for our newly created and individualized HTML and CSs
+
 
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
