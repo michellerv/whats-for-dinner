@@ -61,7 +61,6 @@ var desserts = [
     ];
 
 var currentFood;
-var entireMeal
 
 //eventListeners
  cookButton.addEventListener('click', displayFood);
@@ -106,7 +105,7 @@ function clearFood() {
   
     if (currentFood === currentFood) {
     return foodItem.innerText = ''
-  }
+  }  
 }   
 
 

@@ -24,14 +24,6 @@ header {
     font-size: small;
 }
 
-.header-button {
-    border: 0;
-    border-radius:5px;
-    height: 45px;
-    width: 150px;
-    font-size: medium;
-}
-
 body {
     background-image: url("assets/burger-friends.jpg");
     background-size: cover;
@@ -115,6 +107,9 @@ img {
     height: 35px;
     width: 80px;
     font-size: medium;
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 50vh;
 }
 
 .hidden {
