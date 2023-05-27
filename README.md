@@ -45,7 +45,8 @@ Have you ever had trouble deciding what to cook and eat?
 
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+After the user selects the radio button called 'Entire Meal' the user will recieve a random suggestion of a main dish, a side and a dessert. 
+<img width="1416" alt="Screen Shot 2023-05-27 at 1 57 58 PM" src="https://github.com/michellerv/whats-for-dinner/assets/130321224/e40e5375-348a-4c90-ac89-e5b8a9c50dd1">
 
 ### Context:
 The completion of this project marks the end of week 3 for Mod 1, halfway through the first Module at Turing. I worked on this project for approximatly 15 hours, spanning five days.
