@@ -58,6 +58,9 @@ Michelle Villagran https://github.com/michellerv
 
 &ensp; We were also practicing how to creating functionality through javascript, targeting and creating function for our newly created and individualized HTML and CSs
 
-
 ### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+&ensp; A win I had during this project was completing the html, css and functionality through iteration 1 a lot quicker than I had anticipated. I am also proud of my organization in all of the docs and the ability to read through the code.
+&ensp; Despite this being a solo project, I also am proud that once I had a plan, I was able to execute the next tasks in a calm manner.
+&ensp; A challenge I faced was breaking down the functionality of iteration 1 into manageable step. It took the support of peers, giving me guiding questions of what I needed certain actions to accomplish, in order to get the ideas for each function. 
+&ensp; I would like to continue to work on my independent problem solving skills, as well as having competence in my abilities when I work alone. 
+
