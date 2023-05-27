@@ -107,6 +107,9 @@ img {
     height: 35px;
     width: 80px;
     font-size: medium;
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 50vh;
 }
 
 .hidden {
