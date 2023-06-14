@@ -16,6 +16,7 @@ Have you ever had trouble deciding what to cook and eat?
 1. Fork and clone this repo: https://github.com/michellerv/whats-for-dinner/pull/9
 2. Type `cd whats-for-dinner` to move into the root directory
 3. Open the webpage by typing `open index.html`
+- Visit app: https://michellerv.github.io/whats-for-dinner/
 
 
 ### Preview of App:
